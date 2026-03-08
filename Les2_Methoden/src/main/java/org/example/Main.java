@@ -4,6 +4,9 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
+
+        double vergoeding = berekenVergoeding(75,3);
+
         // Oproepen van methode met actuele parameters - voorbeeld
         double total = berekenVergoeding(30, 4);
 

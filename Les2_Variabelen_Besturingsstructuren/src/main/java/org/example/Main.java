@@ -8,6 +8,10 @@ public class Main {
     private int aantalOptredens = 4;
 
     public static void main(String[] args) {
+
+        double d = 7.456;
+        System.out.printf("%.2f is de waarde van d%n%n", d);
+
         // Sequentie - Voorbeeld
         // 1. Variabelen toewijzen
         String bandNaam = "The Blue Notes";
