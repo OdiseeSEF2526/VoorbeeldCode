@@ -29,6 +29,13 @@ public class PetRock {
      * @return true indien gelukkig
      */
     public boolean isHappy() {
-        return false;
+        return happy;
+    }
+
+    /**
+     * Spelen met de steen. Na het spelen is de Petrock blij.
+     */
+    public void play() {
+        happy = true;
     }
 }
